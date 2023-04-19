@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/stylesheet.css">
+    <title>Book Now</title>
+</head>
+<body>
+    <div class="background-image"></div>
+    <img src="assets/css/image/dominica.jpg" alt="dominica">
+    <header>
+        <a href="index.html">
+            <h1 id="logo">Nature Hikers</h1>
+        </a>
+        <nav id="menu">
+            <ul>
+                <li>
+                    <a href="index.html" class="active">Home</a>
+                </li>
+                <li>
+                    <a href="trail.html">Trails</a>
+                </li>
+                <li>
+                    <a href="book-now.html">Book Now</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+        <section id="form">
+            <form action="https://formdump.codeinstitute.net" method="POST">
+                <h2>Book Now</h2>
+                <div>
+                    <label for="fname">First Name</label>
+                    <input class="form-input" id="fname" type="text" name="First Name" required>
+                </div>
+                <div>
+                    <label for="lname">Last Name</label>
+                    <input class="form-input" id="lname" type="text" name="Last Name" required>
+                </div>
+                <div>
+                    <label for="email">Email Address</label>
+                    <input class="form-input" id="email" type="email" name="Email" required>
+                </div>
+                <div id="trail_selection">
+                    <p>Trail:</p>
+                    <div>
+                        <input id="trail1" type="radio" name="Trail" value="Boiling Lake" required>
+                        <label for="trail1">Boiling Lake</label>
+                    </div>
+                    <div>
+                        <input id="trail2" type="radio" name="Trail" value="Morne Diablotin">
+                        <label for="trail2">Morne Diablotin</label>
+                    </div>
+                    <div>
+                        <input id="trail3" type="radio" name="Trail" value="Sari Sari Falls">
+                        <label for="trail3">Sari Sari Falls</label>
+                    </div>
+                    <div>
+                        <input id="trail4" type="radio" name="Trail" value="Waitikubuli National Trail">
+                        <label for="trail4">Waitikubuli National Trail</label>
+                    </div>
+                </div>
+                <div>
+                    <label class="form-label" for="perssons">Number of Perssons</label>
+                    <input class="form-input" id="Perssons" type="Number" name="Booked for " required>
+                </div>
+                <div>
+                    <label class="form-label" for="date">Date</label>
+                    <input class="form-input" id="date" type="date" name="Date" required>
+                </div>
+                
+                <input class="book-button" type="submit" value="Book">
+            </form>
+        </section>
+
+        
+    </div>
+</div>
+
+<footer>
+    <div>
+        <ul class="social-networks">
+            <li>
+                <a href="http//facebook.com" target="_blank" rel="noopener" 
+                aria-label="visit our facebook page (opens in a new tab)"><i class="fa-brands fa-facebook"></i></a>
+            </li>
+            <li>
+                <a href="http//instagram.com" target="_blank" rel="noopener" 
+                aria-label="visit our instagram page (opens in a new tab)"><i class="fa-brands fa-instagram"></i></a>
+            </li>
+            <li>
+                <a href="http//twitter.com" target="_blank" rel="noopener" 
+                aria-label="visit our twitter page (opens in a new tab)"><i class="fa-brands fa-twitter"></i></a>
+            </li>
+        </ul>
+    </div>
+</footer>
+</body>
+</html>
